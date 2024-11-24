@@ -1,0 +1,14 @@
+*{
+    -webkit-app-region: drag;
+  }
+  
+
+body {
+    -webkit-app-region: no-drag;
+    background-color: #000;
+    margin: 0;
+    margin-top: 5%;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+  }

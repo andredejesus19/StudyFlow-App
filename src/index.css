@@ -12,9 +12,11 @@ body {
   margin: 0;
   margin-top: 5%;
   overflow: hidden;
+  align-items: center;
+  align-content: center;
 }
 
-.imgConfig{
+#btnConfig{
   -webkit-app-region: no-drag;
   background-color: transparent;
   border: none;
@@ -26,6 +28,7 @@ body {
 }
 
 #imgConfig {
+  -webkit-app-region: no-drag;
   width: auto;
   height: 25px;
 }
@@ -68,6 +71,57 @@ body {
   left: 2px;
   top: 1px;
 }
+
+.contFocus {
+  width: 100%;
+  position: relative;
+  display: flex;
+  top: 25px;
+}
+
+#ciclo1 {
+  height: 6px;
+  width: 49px;
+  border: 1px solid white;
+  border-radius: 40px;
+  margin: 5px;
+  background-color: white;
+  position: relative;
+  left: 105px;
+
+}
+
+#ciclo2 {
+  height: 6px;
+  width: 49px;
+  border: 1px solid white;
+  border-radius: 40px;
+  margin: 5px;
+  position: relative;
+  left: 105px;
+
+}
+
+#ciclo3 {
+  height: 6px;
+  width: 49px;
+  border: 1px solid white;
+  border-radius: 40px;
+  margin: 5px;
+  position: relative;
+  left: 105px;
+}
+
+#ciclo4 {
+  height: 6px;
+  width: 49px;
+  border: 1px solid white;
+  border-radius: 40px;
+  margin: 5px;
+  position: relative;
+  left: 105px;
+}
+
 
 
 

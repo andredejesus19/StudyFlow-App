@@ -5,4 +5,5 @@ const { contextBridge, ipcRenderer } = require('electron');
 
 contextBridge.exposeInMainWorld('api', {
   moveWindow: (deltaX, deltaY) => ipcRenderer.send('move-window', deltaX, deltaY),
+  openConfigWindow: () => ipcRenderer.send('open-second-window'),
 });

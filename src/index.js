@@ -1,5 +1,7 @@
 const { app, BrowserWindow, ipcMain, webFrameMain } = require('electron');
 const path = require('node:path');
+const { createConfigWindow } = require('../src/configScreen/indexConfig');
+
 
 if (require('electron-squirrel-startup')) {
   app.quit();
@@ -12,7 +14,7 @@ const createWindow = () => {
   mainWindow = new BrowserWindow({
     width: 440,
     height: 154,
-    opacity: 0.80,
+    opacity: 0.70,
     movable: true,
     roundedCorners: true,
     resizable: false,         // Impede redimensionamento
@@ -48,4 +50,10 @@ app.on('window-all-closed', () => {
     app.quit();
   }
 });
+
+ipcMain.on('open-second-window', () => {
+  createConfigWindow(); // Agora funciona sem erro
+});
+
+
 
