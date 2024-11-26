@@ -21,7 +21,7 @@ const createWindow = () => {
     alwaysOnTop: true,        // Garante que a janela fica no topo
     titleBarStyle: 'hidden',
     frame: false,             // Remove a barra de título
-    transparent: true,       // Janela transparente (opcional)
+    transparent: false,       // Janela transparente (opcional)
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'), // Preload para comunicação entre front e main
       contextIsolation: true, // Recomendado por segurança

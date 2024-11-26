@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Crushed';
+    src: url(../../font/Crushed-Regular.ttf)format(truetype);
+}
+
 *{
     -webkit-app-region: drag;
   }
@@ -11,4 +16,265 @@ body {
     overflow: hidden;
     align-items: center;
     align-content: center;
+    justify-content: center;
   }
+
+  .title {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    font-family: 'Crushed';
+    color: white;
+  }
+  
+  #txtConfig {
+    text-align: center;
+    font-size: 38px;
+  }
+
+.ajusts {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: auto;
+    color: white;
+    font-family: 'Crushed';
+    font-size: 24px;
+}
+
+.lofi {
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+}
+
+#txtLofi {
+    margin: 0%;
+}
+
+.btnMusic {
+    width: 55px;
+    height: 25px;
+    left: 25px;
+    position: relative;
+    border: 2px solid #FFFF;
+    border-radius: 40px;
+    background-color: #FFFF;
+    display: table;
+    padding: 0%;
+    margin-left: 30%;
+}
+
+#keyOnOff {
+    width: 30px;
+    height: 19px;
+    background-color: #706F6F;
+    border-radius: 40px;
+    padding: 0%;
+    left: 1px;
+    bottom: 1px;
+    position: relative;
+    border: 2px solid #FFFF;
+    box-shadow: 1px 0px #000 ;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#txtOnOff {
+    font-size: 10px;
+    margin: 0%;
+    color: #FFFF;
+}
+.transparent{
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    margin-top: 10%;
+}
+
+#txtTransparence {
+    margin: 0%;
+}
+
+.btnTransparence {
+    width: 53px;
+    height: 25px;
+    border-radius: 40px;
+    background-color: #1DB427;
+    display: table;
+    padding: 0%;
+    margin-left: 30%;
+    border: 1px solid #FFFF;
+}
+
+#keyOn {
+    width: 30px;
+    height: 19px;
+    background-color: #706F6F;
+    border-radius: 40px;
+    padding: 0%;
+    left: 16px;
+    bottom: 1px;
+    position: relative;
+    border: 2px solid #FFFF;
+    box-shadow: 0px 1px 1px 0px #000 ;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#txtOn {
+    font-size: 10px;
+    margin: 0%;
+    color: #1DB427;
+}
+
+.timeFocus {
+    padding: auto;
+    width: 255;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.timeCrtlFocus {
+    display: flex;
+    width: auto;
+    height: 18px;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: 70px;
+    top: 10px;
+}
+
+.timeFocus {
+    padding: auto;
+    width: 255;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#minFocus {
+    margin: 0%;
+}
+
+#txtFocus {
+    margin-bottom: 0%;
+}
+
+#txtTimeFocus {
+    font-size: 15px;
+    margin: 0%;
+    width: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    position: relative;
+}
+
+#maxFocus {
+    margin: 0%;
+}
+
+
+.lowPause {
+    padding: auto;
+    width: 255;
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: 10px;
+}
+
+#timePause {
+    display: flex;
+    width: auto;
+    height: 18px;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: 43px;
+}
+
+#txtLowPause {
+    margin-bottom: 0%;
+    margin: 0%;
+}
+
+#minPause {
+    margin: 0%;
+}
+
+#maxPause {
+    margin: 0%;
+}
+
+#txtTimePause {
+    font-size: 15px;
+    margin: 0%;
+    width: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    position: relative;
+}
+
+.longPause {
+    padding: auto;
+    width: 255;
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: 10px;
+}
+
+#txtLowPause {
+    margin-bottom: 0%;
+    margin: 0%;
+}
+
+#longPause {
+    display: flex;
+    width: auto;
+    height: 18px;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    left: 43px;
+}
+
+#minLongPause {
+    margin: 0%;
+}
+
+#timeLongPause {
+    font-size: 15px;
+    margin: 0%;
+    width: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    position: relative;
+}
+
+#logoStudyFlow {
+    width: auto;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    margin-top: 0%;
+    left: 35%;
+}
